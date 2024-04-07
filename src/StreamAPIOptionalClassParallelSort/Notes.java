@@ -3,6 +3,20 @@ package StreamAPIOptionalClassParallelSort;
 public class Notes {
 }
 //StreamAPI, Optional Class, Parallel sort, String Joiner, Date and Time API
+//with the help of stream api, find out even odd numbers.
+//more than or equal to 5. ------filter
+// add 10 to individual element
+//multiply by 2 in individual element ---------map
+//find out the count
+//find out the sum
+//Minimum element, Max
+//Sorting
+//duplicate, unique elements
+//find out the third highest, third lowest
+//employee list - find out the highest salary, find the employee by city or department
+//by id
+//java guides
+
 /*
 The Stream API in Java provides a powerful way to process collections of
 objects in a functional style.
@@ -16,8 +30,14 @@ Functional Operations:
 
 ->Streams support a wide range of intermediate and terminal operations
 to perform data processing.
-->Intermediate operations include filter, map, sorted, distinct, etc.
-->Terminal operations include forEach, collect, reduce, count, etc.
+
+->Intermediate operations include "filter(), map(), sorted(), distinct(), limit(), skip()".
+
+->Terminal operations include "forEach(), toArray(), collect(), reduce(),
+ count(), min(), max(), anyMatch(), allMatch(), noneMatch(), findFirst(), findAny().
+
+->shortCircuit Operations: anyMatch(), allMatch(), noneMatch(), findFirst(), findAny(), limit();
+
 
 Lazy Evaluation:
 
