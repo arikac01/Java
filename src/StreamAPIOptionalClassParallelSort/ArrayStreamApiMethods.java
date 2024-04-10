@@ -17,5 +17,11 @@ public class ArrayStreamApiMethods {
 
         int max = Arrays.stream(a).max().getAsInt();
         System.out.println("Max: "+ max);
+
+        boolean flag = Arrays.stream(a).isParallel();
+        System.out.println(flag);
+
+        boolean flags = Arrays.stream(a).parallel().isParallel();
+        System.out.println(flags);
     }
 }

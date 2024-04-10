@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class distinct {
+public class Distinct {
     public static void main(String[] args) {
         int[] a = {1, 2, 5, 1,3,3,3,5,8, 8, 9};
         Arrays.stream(a).sorted().distinct().forEach(System.out::println);

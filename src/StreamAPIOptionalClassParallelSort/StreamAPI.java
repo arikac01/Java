@@ -21,4 +21,17 @@ public class StreamAPI {
 -> .generate() takes suppliers as their inputs arguments
 -> filter() always accepts only predicates.
 -> map takes function interface as input.
+
+____> Sequential Stream: by using Arrays.stream() or CollectObj.stream()
+
+to see if a stream is sequential or not, we use isParallel() method
+returns boolean, false ->> stream is Sequential, true ->> Stream is Parallel.
+
+______> Collections will support Objects not primitive
+
+        Primitives -> Wrapper class -> Objects ->Collection
+        collectionObj.stream() -> sequential
+        collectionObj.parallelstream() -> parallel
+
+
  */

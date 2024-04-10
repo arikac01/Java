@@ -31,10 +31,20 @@ Functional Operations:
 ->Streams support a wide range of intermediate and terminal operations
 to perform data processing.
 
+StreamAPI = Intermediate Operationss + Terminal Operations
+
 ->Intermediate operations include "filter(), map(), sorted(), distinct(), limit(), skip()".
+        Always provides new stream
+        Lazy in nature
+        only executes when terminal are invoked.
 
 ->Terminal operations include "forEach(), toArray(), collect(), reduce(),
  count(), min(), max(), anyMatch(), allMatch(), noneMatch(), findFirst(), findAny().
+
+        Intermediate Operations -> new Stream -> Terminal Operations input.
+        It gives final result.
+        Eager in nature.
+
 
 ->shortCircuit Operations: anyMatch(), allMatch(), noneMatch(), findFirst(), findAny(), limit();
 
